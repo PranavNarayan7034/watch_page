@@ -1,0 +1,16 @@
+.logoicon{
+    height: 50px;
+    width: 50px;
+}
+.usericon{
+    height: 40px;
+    width: 40px;
+}
+.searchicon{
+    height: 40px;
+    width: 40px;
+}
+.searchbar::placeholder{
+    text-align: center;
+    font-size: 20px
+}
