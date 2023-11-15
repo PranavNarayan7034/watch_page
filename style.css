@@ -47,5 +47,31 @@
 }
 .watchimg{
     height: 300px;
-    width: 300px;
+    width: 270px;
+}
+.section{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(226, 243, 243);
+}
+
+.award{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 330px;
+    left: -30px;
+    border-radius: 10px;
+    z-index: 11;
+}
+.awardicon{
+    height: 30px;
+    width: 60px;
+}
+.award p{
+    /* margin: 3px 0px 0px 20px; */
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
 }
