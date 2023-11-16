@@ -75,3 +75,61 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+.first{
+    width: 45%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.firsticon{
+    width: 30px;
+    height: 35px;
+}
+.first h5{
+    padding: 10px;
+    font-size: 25px;
+    border: 4px solid blue;
+    border-radius: 5px;
+}
+.second h1{
+    font-size: 60px;
+    /* font-weight: 800; */
+}
+
+.second h1::first-line{
+    font-weight: 800;
+}
+.second p{
+    width: 85%;
+    font-size: 30px;
+    color:#0000005b;
+}
+.third{
+    margin-top: 100px;
+}
+.third a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 30px;
+    width: 100px;
+    padding: 20px;
+   
+}
+.firstbtn{
+    background-color: red;
+    border: 2px solid red;
+}
+.secondbtn{
+    border: 2px solid black;
+}
+.firstbtn:hover{
+    background-color: transparent;
+    border-color: black;
+}
+.secondbtn:hover{
+    background-color: red;
+    background-color: red;
+}
